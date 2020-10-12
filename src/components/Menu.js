@@ -3,6 +3,9 @@ import '../App.css'
 const Menu = ()=>{
     return(
         <div className="menu">
+            <div className='intro'>
+                Our dishes include;
+            </div>
            <div className='foods'>
                <figure>
                <img src='https://images.unsplash.com/photo-1563372522-8e97eac82f62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'></img>

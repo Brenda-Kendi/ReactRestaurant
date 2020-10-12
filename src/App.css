@@ -12,11 +12,20 @@
   width: 100vw;
   margin: 0 auto;
 }
-.nav{
+.nav ul{
+  margin-top: 20px;
   display: flex;
-  text-decoration: none;
-  text-align: center;
   justify-content: space-around; 
+}
+.nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.nav ul li a:hover {
+  color: red ;
 }
 /* .nav li{
   list-style-type: none;
@@ -31,21 +40,15 @@ li:hover,
 li:focus {
 	color: aquamarine;
 }
-
-
-/* 
-.tab span {
-	color: #333;
-	font-size: 28px;
-	letter-spacing: 0.2rem;
-
-	transition: 0.1s;
+.intro{
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px auto;
+  text-align: center;
 }
-#tab-content {
-	padding: 40px;
-	min-height: 800px;
-	color: #333;
-} */
+figcaption{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .contact{
   text-align: center;
@@ -56,6 +59,16 @@ li:focus {
   text-align: center;
   justify-content: center;
   margin: 10px auto;
+}
+.landingpage h2{
+  margin-top: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+}
+.landingpage p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px;
 }
 .foods{
   display: flex;
